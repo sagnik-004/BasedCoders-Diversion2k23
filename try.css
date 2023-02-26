@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #131720;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .a1 {
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+  }
+  
+  .a1 a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  
+  .a1 .search-container{
+    float: right;
+  }
+  .a2{
+    max-width: 500px;
+    max-height: 40px;
+    padding-left: 50px;
+    background-color: hwb(150 7% 15%);
+    text-align: center;
+    color: white;
+    font-size: ;
+  }
+  form{
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+
+  }
+  form label{
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+  
+  input {
+    font: 15px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+  }
+  
+  .thumbnail {
+    height: 350px;
+    width: 300px;
+    border-radius: 19px;
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+  }
+  
+  .card{
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
+    box-sizing: border-box;
+  }
+.site-nav{
+   margin-top: 20px;
+  }
+.site-nav ul{
+  margin: 0;
+  padding: 0;
+}
+.site-nav li{
+ list-style: none;
+ float: left;
+}
+.site-nav a{
+  display:block ;
+  color:#617140 ;
+  text-decoration:none ;
+  padding:10px 20px ;
+  border:3px solid #0a6757 ;
+  border-bottom:none;
+}
+.site-nav a :hover{
+  background-color: #48ebd0;
+}
+body img .box1{
+max-width:100%;
+}
+body img .box2{
+  max-width:200% ;
+}
+body img .box3{ 
+  max-width: ;
+}
+body img  .box4{
+  max-width: ;
+}
+body img .box5{
+  max-width: ;
+}
